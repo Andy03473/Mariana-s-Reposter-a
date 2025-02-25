@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mariana's - Repostería</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/img.css">
+    
 </head>
 <body class="bg-pink-100 text-gray-800">
     
@@ -28,12 +29,33 @@
     </section>
     
     <!-- Galería -->
-    <section class="p-10 grid grid-cols-1 md:grid-cols-3 gap-4">
+    <section class="p-10 flex justify-center items-center space-x-4">
+        <a href="galletas.html" class="text-center">
+            <img src="assets/img/galletas1.jpg" alt="Galletas" class="rounded-lg shadow-md hover:scale-105 transition-transform w-48">
+            <p class="text-xl font-semibold mt-2 text-pink-600">Galletas</p>
+        </a>
+        <a href="pasteles.html" class="text-center">
+            <img src="assets/img/pasteles1.jpg" alt="Pasteles" class="rounded-lg shadow-md hover:scale-105 transition-transform w-48">
+            <p class="text-xl font-semibold mt-2 text-pink-600">Pasteles</p>
+        </a>
+    </section>
+    
+    
+   <!-- <section class="p-10 grid grid-cols-1 md:grid-cols-3 gap-4">
         <a href="galletas.html"><img src="assets/img/galletas.jpg" alt="Galletas" class="rounded-lg shadow-md"></a>
         <a href="pasteles.html"><img src="assets/img/pasteles.jpg" alt="Pasteles" class="rounded-lg shadow-md"></a>
         <a href="variados.html"><img src="assets/img/variados.jpg" alt="Postres variados" class="rounded-lg shadow-md"></a>
+    </section>-->
+     <!-- Contacto -->
+     <section class="p-10 text-center">
+        <h2 class="text-2xl font-semibold">Contáctanos</h2>
+        <p class="mt-2">Déjanos un mensaje y te responderemos lo antes posible.</p>
+        <form class="mt-4">
+            <input type="text" placeholder="Tu nombre" class="p-2 border rounded-md m-2">
+            <input type="email" placeholder="Tu correo" class="p-2 border rounded-md m-2">
+            <button class="bg-pink-500 text-white px-4 py-2 rounded-md">Enviar</button>
+        </form>
     </section>
-    
     <!-- Testimonios -->
     <section class="bg-white p-10 text-center">
         <h2 class="text-2xl font-semibold">Nuestros clientes dicen...</h2>

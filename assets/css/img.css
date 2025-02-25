@@ -1,0 +1,16 @@
+img {
+    max-width: 250px !important;
+    height: auto !important;
+    display: block; /* Hace que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.contenedor-imagenes {
+    display: flex;
+    justify-content: center; /* Centra los elementos */
+    gap: 20px; /* Reduce el espacio entre imágenes */
+}
+
+.categoria {
+    text-align: center;
+    margin: 0; /* Elimina margen extra */
+}
